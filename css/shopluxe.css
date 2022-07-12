@@ -1,0 +1,192 @@
+@font-face{
+    src: url("../fonts/Yekan-Font-master/Yekan.woff");
+    font-family: "Yekan";
+}
+
+*{
+    font-family: "Yekan" !important;
+}
+body{
+    background-image: url(../images/pattern4.jpg);
+}
+.btnhamber{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btnhamber:hover{
+    background-color: #e15260 !important;
+    border-color: #fff !important;
+    color: #fff !important;
+    cursor: pointer !important;
+}
+.btnhamber:active{
+    background-color: #e15260 !important;
+    border-color: #fff !important;
+    color: #fff !important;
+}
+.btnserrch{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btnserrch:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid#000 !important;
+}
+.bi-search{
+    font-family: 'cursive' !important;
+}
+.navtophover{
+    border-radius: 0 0 15px 15px !important;
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.navtophover:hover{
+    border-radius: 0 0 13px 13px !important;
+    border-top: 2px solid#e15260 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    cursor: pointer !important;
+}
+.navtophover:hover .nav-link{
+    color: #000 !important;
+    border-color: #000 !important;
+    border-radius: 0 0 13px 13px !important;
+    background: none;
+}
+.navtophover:active{
+    border-radius: 0 0 13px 13px !important;
+    border-top: 2px solid#e15260 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    cursor: pointer !important;
+}
+.navtophover:active .nav-link{
+    color: #000 !important;
+    border-color: #000 !important;
+    border-radius: 0 0 13px 13px !important;
+    background: none;
+}
+.dropbtn{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.dropbtn a{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.dropbtn:hover{
+    background-color: #e15260 !important;
+    
+}
+.dropbtn:hover a{color: #e15260 !important;
+}
+.dropbtn:active{
+    background-color: #e15260 !important;
+}
+.dropbtn:active a{color: #e15260 !important;
+}
+.lastnavitem{
+    cursor: not-allowed !important;
+}
+.nav-link{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btnmembership{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btnmembership:hover{
+    background-color: #fff !important;
+    border-color: #e15260 !important;
+    color: #e15260 !important;
+}
+.cardpac{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.cardpac:hover{
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+.lastprice{
+    cursor: not-allowed !important;
+}
+.iconbtm{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.iconbtm:hover{
+    color: #e15260 !important;
+}
+.formbtnright{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.formbtnright:hover{
+    background-color: #fff !important;
+    color: #e15260 !important;
+    border-color: #e15260 !important;
+}
+.formbtnleft{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.formbtnleft:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+    border-color: #000 !important;
+}
+.btndang{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btndang:hover{
+    color: #000 !important;
+    border-color: #000 !important;
+    cursor: pointer !important;
+}
+.btndang:active{
+    color: #000 !important;
+    border-color: #000 !important;
+}
+.btndark{
+    transition:  all 0.5s 0.1s ease-in-out !important;
+    -moz-transition:  all 0.5s 0.1s ease-in-out !important;
+    -o-transition:  all 0.5s 0.1s ease-in-out !important;
+    -webkit-transition:  all 0.5s 0.1s ease-in-out !important;
+}
+.btndark:hover{
+    color: #e15260 !important;
+    border-color: #e15260 !important;
+    cursor: pointer !important;
+}
+.btndark:active{
+    color: #e15260 !important;
+    border-color: #e15260 !important;
+}
